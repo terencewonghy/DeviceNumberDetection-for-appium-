@@ -11,7 +11,7 @@ i = 0
 
 def getNoOfDevice():
     global d_name
-    os.system("cd C:\\Users\\s2204\\Desktop\\platform-tools")
+    os.system("cd C:\\Users\\username\\Desktop\\platform-tools")
     d_name = os.popen("adb devices").read()
     d_name = d_name.split('\n', 1)[-1]
     d_name = d_name.split()
